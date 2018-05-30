@@ -1,0 +1,33 @@
+.Display {
+    padding-top: 25px;
+    padding-bottom: 2px;
+    font-size: 30px;
+    text-align: right;
+    border: 1px solid darkgray;
+    background-color: DarkGray;
+    pointer-events: none;
+}
+
+
+.Calculator {
+    border: 4px solid DarkGray;
+    background-color: DarkGray;
+    margin-top: 5px;
+    position: relative;
+
+}
+
+.button, .operator {
+
+    font-size: 17px;
+    text-align: center;
+    background-color: Gainsboro;
+}
+
+.number {
+
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    background-color: white;
+}

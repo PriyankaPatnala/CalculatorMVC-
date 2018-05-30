@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+
+    <script type="text/javascript" src="model/ButtonModel.js"></script>
+    <script type="text/javascript" src="view/ButtonView.js"></script>
+    <script type="text/javascript" src="controller/ButtonController.js"></script>
+
+
+    <script type="text/javascript" src="model/CalculatorModel.js"></script>
+    <script type="text/javascript" src="view/CalculatorView.js"></script>
+    <script type="text/javascript" src="controller/CalculatorController.js"></script>
+
+
+    <script type="text/javascript" src="model/DisplayModel.js"></script>
+    <script type="text/javascript" src="view/DisplayView.js"></script>
+    <script type="text/javascript" src="controller/DisplayController.js"></script>
+
+    <script type="text/javascript" src="calModelSpecifications.js"></script>
+    <script type="text/javascript" src="buttonInfo.js"></script>
+
+    <script type="text/javascript" src="model/NumberButtonModel.js"></script>
+    <script type="text/javascript" src="view/NumberButtonView.js"></script>
+    <script type="text/javascript" src="controller/NumberButtonController.js"></script>
+
+    <script type="text/javascript" src="model/OperatorButtonModel.js"></script>
+    <script type="text/javascript" src="view/OperatorButtonView.js"></script>
+    <script type="text/javascript" src="controller/OperatorButtonController.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+<div id="btn"></div>
+<script>
+
+    var calci1 = new calculatorController();
+
+    var obj1 = calci1.render();
+    document.getElementById('btn').appendChild(obj1);
+
+    var calci2 = new calculatorController();
+    var obj2 = calci2.render();
+    document.getElementById('btn').appendChild(obj2);
+
+    // var cal2 = new calculatorController();
+    // var obj2 = cal2.render();
+    // document.getElementById('btn').appendChild(obj2);
+    //
+    // var cal3 = new calculatorController();
+    // var obj3 = cal3.render();
+    // document.getElementById('btn').appendChild(obj3);
+
+</script>
+</body>
+
+</html>
